@@ -19,7 +19,8 @@
 						"type": "ExcelSource",
 						"storeSettings": {
 							"type": "AzureFileStorageReadSettings",
-							"recursive": true,
+							"recursive": false,
+							"modifiedDatetimeStart": "2023-10-09T00:00:00.000Z",
 							"enablePartitionDiscovery": false
 						}
 					},
