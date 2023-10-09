@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DataFactoryBatchFlow"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureFileStorage_connectionString": {
+			"value": ""
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/12788db4-52bf-4d95-99c1-4e26a5a9cb89/resourceGroups/AZCPBLTYIntegrationsPoC/providers/Microsoft.Storage/storageAccounts/demostoragefileshare"
+		}
+	}
+}
