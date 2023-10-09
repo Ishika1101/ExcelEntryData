@@ -1,0 +1,21 @@
+{
+	"name": "EmployeeData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureFileStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureFileStorageLocation",
+				"fileName": "EmployeeData.xlsx",
+				"folderPath": "BatchFlowExcelData"
+			},
+			"firstRowAsHeader": false
+		},
+		"schema": []
+	}
+}
